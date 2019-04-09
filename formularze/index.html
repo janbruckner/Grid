@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularze</title>
+
+</head>
+<body>
+    <h2>Rejestracja Uzytkownika</h2>
+
+    <form action="" method="GET" style="display: flex; flex-direction: column">
+       <!-- <label for="imie"></label>  -->
+       <input type="text" name="" id="imie" value="" placeholder="Podaj Imie">
+   <input type="password"name="" id="haslo" value="" placeholder="Haslo">
+   <label for="zgoda">Login</label>
+<input type="checkbox"name="" id="zgoda"value="">    
+
+<label for="pk">Kobieta</label>
+<input type="radio" name="plec" id="pk" value="k">
+<label for="pm">Mezczyzna</label>
+<input type="radio" name="plec" id="pm" value="m">
+
+<input type="file" name="dowod" id="pk">
+<!-- Jest juz raczej stary sposob - teraz raczej drag and drop w java -->
+
+
+<label for="Samochod">Jaki jest kolor samochodu pana komendanta</label>
+<!-- <select name="" id="Samochod" multiple size 3> - tak nie robic  -->
+    <select name="" id="Samochod">
+    <option value="biały">Biały</option>
+    <option value="czerwony">Czerwony</option>
+    <option value="czarny">czarny</option>
+    <option value="ups">nie wiem</option>
+</select>
+
+<textarea name="" id="" cols="30" rows="10"></textarea>
+
+<input type="hidden" name="source" value="footer">
+
+<input type="submit" value="Wyslij Formularze">
+<button>inny przycisk do wyslania formularza</button>
+
+
+</form>
+</body>
+</html>
